@@ -18,7 +18,7 @@ All project files are in the `Intro to programming-Project` folder:
 | `clean_data.py` | Loads the raw Excel file, cleans it and saves `data/posidonia_clean.csv` |
 | `status_over_time.py` | Percentage of declining meadows per period, uncertainties from subsampling, 3σ significance test, Figure 1 |
 | `growth_and_pressures.py` | Shoot growth rates with vs without human pressures (mean, skewness, median), uncertainties from subsampling, 3σ significance test, Figure 2 |
-| `data/` (data subfolder)| Raw dataset (`.xls`) and the cleaned dataset (`.csv`) |
+| `data/` (data subfolder) | Raw dataset (`.xls`) and the cleaned dataset (`.csv`) |
 | `MAT2007___project.pdf` | The report (PDF) |
 
 ## Dataset
