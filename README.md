@@ -7,7 +7,7 @@ This project asks two questions:
 1. Has decline of *Posidonia oceanica* meadows become less common over time?
 2. Do meadows exposed to human pressures lose shoots faster than meadows without them?
 
-The full results and discussion are in the report (`report/report.pdf`).
+The full results and discussion are in the report (`MAT2007___project.pdf`).
 
 ## Repository contents
 
