@@ -1,4 +1,4 @@
-# Posidonia oceanica decline in the Mediterranean Sea
+e# Posidonia oceanica decline in the Mediterranean Sea
 
 Data analysis project for MAT2007.
 
@@ -17,7 +17,7 @@ The full results and discussion are in the report (`MAT2007___project.pdf`).
 | `status_over_time.py` | Percentage of declining meadows per period, uncertainties from subsampling, 3σ significance test, Figure 1 |
 | `growth_and_pressures.py` | Shoot growth rates with vs without human pressures (mean, skewness, median), uncertainties from subsampling, 3σ significance test, Figure 2 |
 | `data/` | Raw dataset (`.xls`) and the cleaned dataset (`.csv`) |
-| `report/` | LaTeX source and PDF of the report |
+| `MAT2007___project.pdf | LaTeX source and PDF of the report |
 
 ## Dataset
 
