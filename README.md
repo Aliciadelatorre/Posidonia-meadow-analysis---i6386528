@@ -17,13 +17,13 @@ The full results and discussion are in the report (`MAT2007___project.pdf`).
 | `status_over_time.py` | Percentage of declining meadows per period, uncertainties from subsampling, 3σ significance test, Figure 1 |
 | `growth_and_pressures.py` | Shoot growth rates with vs without human pressures (mean, skewness, median), uncertainties from subsampling, 3σ significance test, Figure 2 |
 | `data/` | Raw dataset (`.xls`) and the cleaned dataset (`.csv`) |
-| `MAT2007___project.pdf | LaTeX source and PDF of the report |
+| `MAT2007___project.pdf` | The report (PDF) |
 
 ## Dataset
 
 Marbà, N., Díaz-Almela, E., & Duarte, C. M. (2013). *Posidonia oceanica changes in the Mediterranean Sea* [Dataset]. Digital.CSIC. https://doi.org/10.20350/digitalCSIC/3861
 
-The raw file is already included in `data/` as `Posidonia_oceanica_changes_Mediterranean.xls`, so you do not need to download it. The dataset is licensed under CC BY-NC-SA 4.0.
+The raw file is already included in `Intro to programming-Project` folder as `Posidonia_oceanica_changes_Mediterranean.xls`, so you do not need to download it. The dataset is licensed under CC BY-NC-SA 4.0.
 
 The data needs cleaning before analysis. `clean_data.py` does this automatically:
 
@@ -46,8 +46,8 @@ The data needs cleaning before analysis. `clean_data.py` does this automatically
 Clone the repository and install the packages:
 
 ```
-git clone https://github.com/USERNAME/posidonia-meadow-analysis.git
-cd posidonia-meadow-analysis
+git clone https://github.com/USERNAME-analysis.git](https://github.com/Aliciadelatorre/Posidonia-meadow-analysis---i6386528
+cd Posidonia-meadow-analysis
 pip3 install pandas numpy scipy matplotlib xlrd
 ```
 
@@ -62,10 +62,10 @@ python3 growth_and_pressures.py
 ```
 
 1. `clean_data.py` must be run first: it creates `data/posidonia_clean.csv`, which the other two scripts read.
-2. `status_over_time.py` prints the percentages, the difference between the 1990s and the 2000s and its significance, and saves `figure1_status_over_time.png`.
-3. 'growth_and_pressures.py` prints the mean, skewness and median per group, the difference of means and its significance, and saves `figure2_growth_and_pressures.png`.
-
-The scripts must be run from the main folder, because they look for the data in `data/`.
+2. `status_over_time.py` prints the percentages, the difference between the 1990s and the 2000s and its significance, and saves `figure1_status_over_time.png`
+4. `growth_and_pressures.py` prints the mean, skewness and median per group, the difference of means and its significance, and saves `figure2_growth_and_pressures.png`.
+5. 
+The scripts must be run from the main folder, because they look for the data in `Intro to programming-Project` folder.
 
 ## Reproducibility
 
