@@ -1,4 +1,4 @@
-e# Posidonia oceanica decline in the Mediterranean Sea
+# Posidonia oceanica decline in the Mediterranean Sea
 
 Data analysis project for MAT2007.
 
