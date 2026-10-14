@@ -14,8 +14,8 @@ The full results and discussion are in the report (`report/report.pdf`).
 | File | What it does |
 |---|---|
 | `clean_data.py` | Loads the raw Excel file, cleans it and saves `data/posidonia_clean.csv` |
-| `part1_status_over_time.py` | Percentage of declining meadows per period, uncertainties from subsampling, 3σ significance test, Figure 1 |
-| `part2_growth_and_pressures.py` | Shoot growth rates with vs without human pressures (mean, skewness, median), uncertainties from subsampling, 3σ significance test, Figure 2 |
+| `status_over_time.py` | Percentage of declining meadows per period, uncertainties from subsampling, 3σ significance test, Figure 1 |
+| `growth_and_pressures.py` | Shoot growth rates with vs without human pressures (mean, skewness, median), uncertainties from subsampling, 3σ significance test, Figure 2 |
 | `data/` | Raw dataset (`.xls`) and the cleaned dataset (`.csv`) |
 | `report/` | LaTeX source and PDF of the report |
 
@@ -57,13 +57,13 @@ Run the three scripts one after the other, in this order, from the main folder o
 
 ```
 python3 clean_data.py
-python3 part1_status_over_time.py
-python3 part2_growth_and_pressures.py
+python3 status_over_time.py
+python3 growth_and_pressures.py
 ```
 
 1. `clean_data.py` must be run first: it creates `data/posidonia_clean.csv`, which the other two scripts read.
-2. `part1_status_over_time.py` prints the percentages, the difference between the 1990s and the 2000s and its significance, and saves `figure1_status_over_time.png`.
-3. `part2_growth_and_pressures.py` prints the mean, skewness and median per group, the difference of means and its significance, and saves `figure2_growth_and_pressures.png`.
+2. `status_over_time.py` prints the percentages, the difference between the 1990s and the 2000s and its significance, and saves `figure1_status_over_time.png`.
+3. 'growth_and_pressures.py` prints the mean, skewness and median per group, the difference of means and its significance, and saves `figure2_growth_and_pressures.png`.
 
 The scripts must be run from the main folder, because they look for the data in `data/`.
 
